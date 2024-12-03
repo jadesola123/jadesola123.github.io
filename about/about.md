@@ -23,7 +23,6 @@ My academic journey is driven by curiosity, creativity, and a commitment to maki
 - Finance and Mathematics
 
 ### Achievements
-- Published work in **[name of journal or conference, if applicable]**
 - Third place (team) in the **[Hacklab 2022 hackathon]**
 - Speaker at **Search London on scaling communities**
 

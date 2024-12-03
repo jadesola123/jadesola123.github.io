@@ -1,13 +1,12 @@
-repository/
-├── index.html       # Home page
-├── blog/            # Blog directory
-│   └── index.html   # Blog listing
-├── about/           # About page
-│   └── index.html
-├── publications/    # Publications page
-│   └── index.html
-├── assets/          # CSS, images, and other files
-│   ├── styles.css
-│   ├── images/
-│   └── scripts.js
-└── _config.yml      # Configuration file for Jekyll (if using)
+title: "Kareem Jadesola"
+description: "My Academic Website"
+theme: jekyll-theme-minimal
+baseurl: "" # Leave empty for root directory
+url: "https://jadesola123.github.io" # Replace with your GitHub Pages URL
+
+# Navigation
+header_pages:
+  - index.md
+  - blog.md
+  - about.md
+  - publications.md

@@ -5,7 +5,7 @@ title: "About Me"
 
 # About Me
 
-![Your Name](assets/headshots.jpg)
+![Jadesola Kareem](/assets/headshots.jpg)
 
 Hi! I’m **[Jadesola Tanwa Kareem ]**, a researcher and graduate student in **[Advanced Computer Science]** at **[the University of Chester]**. 
 

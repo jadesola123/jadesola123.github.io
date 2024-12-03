@@ -8,7 +8,7 @@ Hi! I'm Jadesola Kareem, an Advanced Computer science Masters student and resear
 
 This website showcases my work, publications, and thoughts on HCI, Machine Learning, Affective Computing, and much more.
 
-- [Blog](blog.md)
-- [About Me](about.md)
-- [Publications](publications.md)
+- [Blog](blog/blog.md)
+- [About Me](about/about.md)
+- [Publications](publications/publications.md)
 

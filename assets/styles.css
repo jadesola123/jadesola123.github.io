@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Dancing Script', cursive, 'Poppins', sans-serif; /* Playful font */
+    font-family: 'Poppins', sans-serif; /* Professional sans-serif font */
     background-color: #ffe6f7; /* Light pink background */
     color: #333366; /* Navy text for readability */
     margin: 0;
@@ -9,10 +9,10 @@ body {
 
 /* Navigation Bar */
 nav {
-    background-color: #ff99cc; /* Vibrant pink */
+    background-color: #b30059; /* Very dark pink */
     padding: 15px;
     text-align: center;
-    border-bottom: 3px solid #d9b3ff; /* Soft purple border */
+    border-bottom: 3px solid #800040; /* Even darker pink border */
 }
 
 nav a {
@@ -35,7 +35,7 @@ div {
 
 /* Buttons/Links */
 button, a.button {
-    background-color: #ff66b2; /* Bright pink */
+    background-color: #b30059; /* Dark pink */
     border: none;
     color: white;
     padding: 10px 20px;
@@ -49,13 +49,13 @@ button, a.button {
 }
 
 button:hover, a.button:hover {
-    background-color: #d94f99; /* Slightly darker pink on hover */
+    background-color: #800040; /* Slightly darker pink on hover */
 }
 
 /* Headers */
 h1, h2, h3 {
-    color: #ff66b2; /* Bright pink headers */
-    text-align: center;
+    color: #b30059; /* Dark pink headers */
+    text-align: left; /* Align headers to the left */
 }
 
 /* Footer */
@@ -70,12 +70,12 @@ footer {
 
 /* Links */
 a {
-    color: #ff66b2; /* Pink links */
+    color: #b30059; /* Dark pink links */
     text-decoration: none;
 }
 
 a:hover {
-    color: #d94f99; /* Darker pink on hover */
+    color: #800040; /* Darker pink on hover */
 }
 
 /* Section Styling */
@@ -93,12 +93,12 @@ input[type="text"], input[type="email"], textarea {
     padding: 10px;
     margin: 10px 0;
     border-radius: 8px;
-    border: 1px solid #ff99cc; /* Soft pink border */
+    border: 1px solid #b30059; /* Dark pink border */
     font-size: 16px;
 }
 
 input[type="submit"] {
-    background-color: #ff66b2;
+    background-color: #b30059;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -108,7 +108,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #d94f99; /* Darker pink on hover */
+    background-color: #800040; /* Darker pink on hover */
 }
 
 /* Images */
@@ -118,42 +118,4 @@ img {
     border-radius: 10px;
 }
 
-/* Special Class for "Girly" Styling */
-.girly-header {
-    font-family: 'Dancing Script', cursive;
-    color: #ff66b2; /* Bright pink for emphasis */
-    font-size: 36px;
-    text-align: center;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    padding: 20px;
-}
-
-.girly-button {
-    background-color: #ff66b2; /* Bright pink */
-    padding: 12px 24px;
-    font-size: 18px;
-    color: white;
-    text-decoration: none;
-    border-radius: 8px;
-    display: inline-block;
-    font-weight: bold;
-}
-
-.girly-button:hover {
-    background-color: #d94f99; /* Darker pink on hover */
-}
-
-/* Animation for Girly Vibe */
-@keyframes sparkle {
-    0% { opacity: 0; }
-    50% { opacity: 1; }
-    100% { opacity: 0; }
-}
-
-.sparkle {
-    animation: sparkle 1s infinite;
-    color: #ff66b2;
-}
-
-
+/* Special Class for Girly Styling Removed */

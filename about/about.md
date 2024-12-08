@@ -23,8 +23,8 @@ My academic journey is driven by curiosity, creativity, and a commitment to maki
 - Finance and Mathematics
 
 ### Achievements
-- Third place (team) in the **[Hacklab 2022 hackathon]**
-- Speaker at **Search London on scaling communities**
+- Third place (team) in the [**[Hacklab 2022 hackathon]**]([url](https://www.myjoyonline.com/hacklab-nigeria-big-data-ai-5g-hackathon-2022-to-host-over-500-developers))
+- Speaker at [**Search London on scaling communities**](https://speakerdeck.com/jadesola123/how-to-build-and-scale-a-community-through-social-media)
 
 ### Outside Academia
 When I’m not immersed in research, you’ll find me:

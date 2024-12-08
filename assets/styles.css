@@ -1,24 +1,28 @@
-/* Navbar styling */
-.navbar {
+@import "{{ site.theme }}";
+
+nav {
   background-color: #333;
   padding: 10px;
 }
 
-.navbar ul {
-  list-style-type: none;
+nav ul {
+  list-style: none;
   padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.navbar ul li {
-  display: inline;
+nav ul li {
   margin-right: 20px;
 }
 
-.navbar ul li a {
+nav ul li a {
   color: white;
   text-decoration: none;
+  font-weight: bold;
 }
 
-.navbar ul li a:hover {
+nav ul li a:hover {
   text-decoration: underline;
 }

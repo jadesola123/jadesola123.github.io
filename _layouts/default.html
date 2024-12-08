@@ -1,54 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ page.title }} | {{ site.title }}</title>
+  {% include head.html %}
 </head>
 <body>
+  <div id="container">
+    <div class="inner">
+      <header>
+        <h1><a href="{{ site.url }}/">{{ site.name }}</a></h1>
+        <h2>Open Source version of the GitHub Pages theme (jekyll version)</h2>
+        
+        <!-- Navbar -->
+        <nav style="background-color: #D5006D; padding: 10px; transition: background-color 0.3s ease;">
+          <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center;">
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/" style="color: white; text-decoration: none;">Home</a>
+            </li>
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/blog/blog.md" style="color: white; text-decoration: none;">Blog</a>
+            </li>
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/about/about.md" style="color: white; text-decoration: none;">About Me</a>
+            </li>
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/publications/publications.md" style="color: white; text-decoration: none;">Publications</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Navbar -->
+      </header>
 
-  <header>
-    <nav style="background-color: #D5006D; padding: 10px; transition: background-color 0.3s ease;">
-      <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: space-around;">
-        <li style="margin-right: 20px;">
-          <a href="{{ site.url }}/" 
-             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
-                    transition: color 0.3s ease, transform 0.3s ease;">
-            Home
-          </a>
-        </li>
-        <li style="margin-right: 20px;">
-          <a href="{{ site.url }}/blog/blog" 
-             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
-                    transition: color 0.3s ease, transform 0.3s ease;">
-            Blog
-          </a>
-        </li>
-        <li style="margin-right: 20px;">
-          <a href="{{ site.url }}/about/about" 
-             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
-                    transition: color 0.3s ease, transform 0.3s ease;">
-            About Me
-          </a>
-        </li>
-        <li>
-          <a href="{{ site.url }}/publications/publications" 
-             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
-                    transition: color 0.3s ease, transform 0.3s ease;">
-            Publications
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
+      {% include download.html %}
+      <hr/>
 
-  <main>
-    {{ content }}
-  </main>
+      <section id="main_content">
+        {{ content }}
+      </section>
 
-  <footer>
-    <p>&copy; {{ site.time | date: "%Y" }} Jadesola Kareem. All Rights Reserved.</p>
-  </footer>
-
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+  </div>
 </body>
 </html>

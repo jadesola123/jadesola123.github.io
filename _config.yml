@@ -27,11 +27,11 @@ social_links:
 # Navigation menu items
 nav:
   - title: "Blog"
-    url: "/blog"
+    url: "/blog/blog.md"
   - title: "About Me"
-    url: "/about"
+    url: "/about/about.md"
   - title: "Publications"
-    url: "/publications"
+    url: "/publications/publications.md"
 
 # Exclude files from being published to GitHub Pages
 exclude:

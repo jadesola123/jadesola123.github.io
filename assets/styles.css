@@ -1,23 +1,24 @@
-nav {
+/* Navbar styling */
+.navbar {
   background-color: #333;
   padding: 10px;
 }
 
-nav ul {
+.navbar ul {
   list-style-type: none;
   padding: 0;
 }
 
-nav ul li {
+.navbar ul li {
   display: inline;
   margin-right: 20px;
 }
 
-nav ul li a {
+.navbar ul li a {
   color: white;
   text-decoration: none;
 }
 
-nav ul li a:hover {
+.navbar ul li a:hover {
   text-decoration: underline;
 }

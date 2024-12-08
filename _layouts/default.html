@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div id="container">
+    <div class="inner">
+      <header>
+        <h1><a href="{{ site.url }}/">{{ site.name }}</a></h1>
+        <h2>Welcome to my academic style</h2>
+        
+        <!-- Navbar -->
+        <nav style="background-color: #D5006D; padding: 10px; transition: background-color 0.3s ease;">
+          <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center;">
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/" style="color: white; text-decoration: none;">Home</a>
+            </li>
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/blog/blog.md" style="color: white; text-decoration: none;">Blog</a>
+            </li>
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/about/about.md" style="color: white; text-decoration: none;">About Me</a>
+            </li>
+            <li style="display: inline; margin-right: 20px; display: inline-block;">
+              <a href="{{ site.url }}/publications/publications.md" style="color: white; text-decoration: none;">Publications</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- End Navbar -->
+      </header>
+
+      {% include download.html %}
+      <hr/>
+
+      <section id="main_content">
+        {{ content }}
+      </section>
+
+      <footer>
+        {% include footer.html %}
+      </footer>
+    </div>
+  </div>
+</body>
+</html>

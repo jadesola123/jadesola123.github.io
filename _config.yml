@@ -28,16 +28,12 @@ social:
     - https://linkedin.com/in/jadesola-kareem
     - https://x.com/jaded_developer
 
-# Analytics (Optional)
-analytics:
-  provider: "google-universal" # Optional: Replace with "google" or your provider
-  google:
-    tracking_id: "UA-XXXXXXXX-X" # Replace with your tracking ID
+
 
 # Author Information
 author:
   name: "Jadesola Kareem"
-  avatar: "/assets/images/avatar.jpg" # Replace with your avatar image path
+  avatar: "/assets/images/headshots.jpg" # Replace with your avatar image path
   bio: "MSc Student researching emotional patterns in sung audio using Machine Learning. Passionate about social impact and advancing mental health research."
   email: "your-email@example.com" # Replace with your email
   linkedin: "linkedin.com/in/jadesola-kareem"

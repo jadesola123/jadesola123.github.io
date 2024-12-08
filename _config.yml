@@ -7,8 +7,7 @@ url: "https://jadesola123.github.io"
 baseurl: ""  # The base URL for your site, leave as is if it's at the root of your GitHub Pages site.
 
 # Theme settings
-theme: minima
-theme_prefix: "minima"
+theme: minimal
 
 # Author information
 author:

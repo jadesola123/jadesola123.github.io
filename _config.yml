@@ -15,6 +15,8 @@ header_pages:
   - about.md
   - publications.md
 
+theme: jekyll-theme-tactile
+
 # SEO and Social Sharing
 google_site_verification: 
 bing_site_verification: 

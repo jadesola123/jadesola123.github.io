@@ -1,46 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
   {% include head.html %}
 </head>
+
 <body>
   <div id="container">
     <div class="inner">
       <header>
         <h1><a href="{{ site.url }}/">{{ site.name }}</a></h1>
-        <h2>Welcome to my academic style</h2>
-        
-        <!-- Navbar -->
-        <nav style="background-color: #D5006D; padding: 10px; transition: background-color 0.3s ease;">
-          <ul style="list-style-type: none; padding: 0; margin: 0; text-align: center;">
-            <li style="display: inline; margin-right: 20px; display: inline-block;">
-              <a href="{{ site.url }}/" style="color: white; text-decoration: none;">Home</a>
-            </li>
-            <li style="display: inline; margin-right: 20px; display: inline-block;">
-              <a href="{{ site.url }}/blog/blog.md" style="color: white; text-decoration: none;">Blog</a>
-            </li>
-            <li style="display: inline; margin-right: 20px; display: inline-block;">
-              <a href="{{ site.url }}/about/about.md" style="color: white; text-decoration: none;">About Me</a>
-            </li>
-            <li style="display: inline; margin-right: 20px; display: inline-block;">
-              <a href="{{ site.url }}/publications/publications.md" style="color: white; text-decoration: none;">Publications</a>
-            </li>
-          </ul>
-        </nav>
-        <!-- End Navbar -->
+        <h2>Using Machine Learning to Explore Emotional Patterns in Music for Mental Health Impact</h2>
       </header>
 
-      {% include download.html %}
       <hr/>
 
       <section id="main_content">
+        <h3>Welcome to the Research Hub</h3>
+        <p>Here, we explore innovative ways to use technology and machine learning to support people with mental health challenges, such as schizophrenia and addiction. Our current project focuses on analyzing emotional patterns in sung audio using advanced neural networks to create tools that can aid emotional well-being.</p>
         {{ content }}
       </section>
-
-      <footer>
-        {% include footer.html %}
-      </footer>
     </div>
   </div>
 </body>
+
 </html>

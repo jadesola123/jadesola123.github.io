@@ -1,8 +1,15 @@
-title: "Kareem Jadesola"
-description: "My Academic Website"
-theme: jekyll-theme-minimal
-baseurl: "" # Leave empty for root directory
+# Site Settings
+title: "Jadesola Kareem"
+title_separator: "-"
+name: "Jadesola Kareem"
+description: "MSc Student | Machine Learning Enthusiast | Researcher in Emotional Analysis of Sung Audio"
+locale: "en-GB"
 url: "https://jadesola123.github.io" # Replace with your GitHub Pages URL
+baseurl: "" # Leave empty for root directory
+repository: "jadesola123/jadesola123.github.io"
+
+# Theme
+theme: minimal-mistakes-jekyll
 
 # Navigation
 header_pages:
@@ -10,3 +17,75 @@ header_pages:
   - blog.md
   - about.md
   - publications.md
+
+# SEO and Social Sharing
+google_site_verification: 
+bing_site_verification: 
+alexa_site_verification: 
+twitter:
+  username: "jaded_developer"
+social:
+  links:
+    - https://linkedin.com/in/jadesola-kareem
+    - https://x.com/jaded_developer
+
+# Analytics (Optional)
+analytics:
+  provider: "google-universal" # Optional: Replace with "google" or your provider
+  google:
+    tracking_id: "UA-XXXXXXXX-X" # Replace with your tracking ID
+
+# Author Information
+author:
+  name: "Jadesola Kareem"
+  avatar: "/assets/images/avatar.jpg" # Replace with your avatar image path
+  bio: "MSc Student researching emotional patterns in sung audio using Machine Learning. Passionate about social impact and advancing mental health research."
+  email: "your-email@example.com" # Replace with your email
+  linkedin: "linkedin.com/in/jadesola-kareem"
+  twitter: "jaded_developer"
+
+# Markdown Processing
+markdown: kramdown
+kramdown:
+  input: GFM
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Outputting
+permalink: /:categories/:title/
+timezone: "Europe/London" # Set to your local timezone
+
+# Defaults for Posts and Pages
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# Social Sharing Image
+og_image: "/assets/images/og-image.png" # Add a default social sharing image
+
+# Exclude Unnecessary Files
+exclude:
+  - "README.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "node_modules"

@@ -18,17 +18,12 @@ header_pages:
 theme: minima
 
 # SEO and Social Sharing
-google_site_verification: 
-bing_site_verification: 
-alexa_site_verification: 
 twitter:
   username: "jaded_developer"
 social:
   links:
     - https://linkedin.com/in/jadesola-kareem
     - https://x.com/jaded_developer
-
-
 
 # Author Information
 author:
@@ -74,9 +69,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-# Social Sharing Image
-og_image: "/assets/images/og-image.png" # Add a default social sharing image
 
 # Exclude Unnecessary Files
 exclude:

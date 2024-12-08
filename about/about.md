@@ -28,7 +28,7 @@ My academic journey is driven by curiosity, creativity, and a commitment to maki
 
 ### Outside Academia
 When I’m not immersed in research, you’ll find me:
-- Writing on my [blog](/blog/blog.md)
+- Writing on my [blog](/blog/blog)
 - Watching trashy reality TV shows😅
 - Exploring my love for music 
 

@@ -8,9 +8,6 @@ url: "https://jadesola123.github.io" # Replace with your GitHub Pages URL
 baseurl: "" # Leave empty for root directory
 repository: "jadesola123/jadesola123.github.io"
 
-# Theme
-theme: minimal-mistakes-jekyll
-
 # Navigation
 header_pages:
   - index.md

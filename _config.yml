@@ -1,78 +1,55 @@
-# Site Settings
-title: "Jadesola Kareem"
-title_separator: "-"
-name: "Jadesola Kareem"
-description: "MSc Student | Machine Learning Enthusiast | Researcher in Emotional Analysis of Sung Audio"
-locale: "en-GB"
-url: "https://jadesola123.github.io" # Replace with your GitHub Pages URL
-baseurl: "" # Leave empty for root directory
-repository: "jadesola123/jadesola123.github.io"
+# _config.yml for Minima Theme
 
-# Navigation
-header_pages:
-  - index.md
-  - blog.md
-  - about.md
-  - publications.md
+# Site settings
+title: "Jadesola's Academic Site"
+description: "A space to share my research, projects, and academic insights"
+url: "https://jadesola123.github.io"
+baseurl: ""  # The base URL for your site, leave as is if it's at the root of your GitHub Pages site.
 
+# Theme settings
 theme: minima
+theme_prefix: "minima"
 
-# SEO and Social Sharing
-twitter:
-  username: "jaded_developer"
-social:
-  links:
-    - https://linkedin.com/in/jadesola-kareem
-    - https://x.com/jaded_developer
-
-# Author Information
+# Author information
 author:
-  name: "Jadesola Kareem"
-  avatar: "/assets/images/headshots.jpg" # Replace with your avatar image path
-  bio: "MSc Student researching emotional patterns in sung audio using Machine Learning. Passionate about social impact and advancing mental health research."
-  email: "your-email@example.com" # Replace with your email
-  linkedin: "linkedin.com/in/jadesola-kareem"
-  twitter: "jaded_developer"
+  name: "Jadesola"
+  email: "jadesolak.business@gmail.com"
 
-# Markdown Processing
+# Social links (add any social profiles you want to link to)
+social_links:
+  - label: "GitHub"
+    url: "https://github.com/jadesola123"
+  - label: "LinkedIn"
+    url: "https://linkedin.com/in/jadesola-kareem"
+  - label: "Twitter"
+    url: "https://twitter.com/jaded_developer"
+
+# Navigation menu items
+nav:
+  - title: "Blog"
+    url: "/blog"
+  - title: "About Me"
+    url: "/about"
+  - title: "Publications"
+    url: "/publications"
+
+# Exclude files from being published to GitHub Pages
+exclude:
+  - README.md  # Exclude the readme file from being published
+  - LICENSE.md  # Exclude the license file from being published
+
+# Permalinks configuration
+permalink: "pretty"  # This setting determines how your URLs will be structured (e.g., /year/month/day/slug/)
+
+# Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Plugins
+# Plugins for adding extra functionality
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-feed
 
-# Pagination
-paginate: 5
-paginate_path: "/page:num/"
-
-# Outputting
-permalink: /:categories/:title/
-timezone: "Europe/London" # Set to your local timezone
-
-# Defaults for Posts and Pages
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      comments: true
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-# Exclude Unnecessary Files
-exclude:
-  - "README.md"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "node_modules"
+# Other settings
+timezone: "Europe/London"  # Adjust the timezone to match your location

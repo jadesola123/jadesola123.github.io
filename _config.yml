@@ -1,20 +1,18 @@
-# _config.yml for Minima Theme
-
 # Site settings
 title: "Jadesola's Academic Site"
 description: "A space to share my research, projects, and academic insights"
 url: "https://jadesola123.github.io"
-baseurl: ""  # The base URL for your site, leave as is if it's at the root of your GitHub Pages site.
+baseurl: ""
 
 # Theme settings
-theme: minimal
+remote_theme: pages-themes/minimal@v0.2.0
 
 # Author information
 author:
   name: "Jadesola"
   email: "jadesolak.business@gmail.com"
 
-# Social links (add any social profiles you want to link to)
+# Social links
 social_links:
   - label: "GitHub"
     url: "https://github.com/jadesola123"
@@ -34,21 +32,22 @@ nav:
 
 # Exclude files from being published to GitHub Pages
 exclude:
-  - README.md  # Exclude the readme file from being published
-  - LICENSE.md  # Exclude the license file from being published
+  - README.md
+  - LICENSE.md
 
 # Permalinks configuration
-permalink: "pretty"  # This setting determines how your URLs will be structured (e.g., /year/month/day/slug/)
+permalink: "pretty"
 
 # Markdown settings
 markdown: kramdown
 kramdown:
   input: GFM
 
-# Plugins for adding extra functionality
+# Plugins
 plugins:
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Other settings
-timezone: "Europe/London"  # Adjust the timezone to match your location
+timezone: "Europe/London"

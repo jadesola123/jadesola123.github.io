@@ -4,18 +4,40 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} | {{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/styles.css' | relative_url }}">
 </head>
 <body>
 
   <header>
-    <!-- Add a class to the nav for scoping the styles -->
-    <nav class="navbar">
-      <ul>
-        <li><a href="{{ site.url }}/">Home</a></li>
-        <li><a href="{{ site.url }}/blog/blog">Blog</a></li>
-        <li><a href="{{ site.url }}/about/about">About Me</a></li>
-        <li><a href="{{ site.url }}/publications/publications">Publications</a></li>
+    <nav style="background-color: #D5006D; padding: 10px; transition: background-color 0.3s ease;">
+      <ul style="list-style-type: none; padding: 0; margin: 0; display: flex; justify-content: space-around;">
+        <li style="margin-right: 20px;">
+          <a href="{{ site.url }}/" 
+             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
+                    transition: color 0.3s ease, transform 0.3s ease;">
+            Home
+          </a>
+        </li>
+        <li style="margin-right: 20px;">
+          <a href="{{ site.url }}/blog/blog" 
+             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
+                    transition: color 0.3s ease, transform 0.3s ease;">
+            Blog
+          </a>
+        </li>
+        <li style="margin-right: 20px;">
+          <a href="{{ site.url }}/about/about" 
+             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
+                    transition: color 0.3s ease, transform 0.3s ease;">
+            About Me
+          </a>
+        </li>
+        <li>
+          <a href="{{ site.url }}/publications/publications" 
+             style="color: white; text-decoration: none; padding: 10px; font-weight: bold; 
+                    transition: color 0.3s ease, transform 0.3s ease;">
+            Publications
+          </a>
+        </li>
       </ul>
     </nav>
   </header>

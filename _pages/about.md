@@ -1,8 +1,10 @@
 ---
-layout: page
-title: "About"
-permalink: /about/
+permalink: /
+title: "Jadesola Kareem"
 author_profile: true
+redirect_from: 
+  - /about/
+  - /about.html
 ---
 
 Hi, I’m Jadesola Kareem — a machine learning enthusiast and early-career researcher with a background in computer engineering and a master's in Advanced Computer Science from the University of Chester.
